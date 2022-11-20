@@ -28,5 +28,14 @@ public class LineComparator {
         } else {
             System.out.println("Lengths are not equals");
         }
+
+        int result = (len1.compareTo(len2));
+        if (result > 0) {
+            System.out.println("Line1 is Greater than Line2");
+        } else if (result < 0) {
+            System.out.println("Line1 is Less than Line2");
+        } else
+            System.out.println("Both the lines are Equal");
+
     }
 }
